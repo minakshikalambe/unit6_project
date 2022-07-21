@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+    width: 22%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainDiv h2 {
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(60, 57, 57);
+}
+
+.mainDiv h2 span {
+    cursor: pointer;
+}
+
+.signIn>span,
+.signOut>span {
+    color: rgb(60, 57, 57);
+    font-size: 12px;
+    display: block;
+    margin: 20px 0;
+}
+
+.signIn label,
+.signOut label {
+    font-weight: 600;
+    font-size: 13px;
+    display: block;
+    margin: 10px 0;
+}
+
+.signIn input,
+.signOut input {
+    width: 96%;
+    height: 25px;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    border-bottom: 3px solid gray;
+}
+
+.signIn input:focus,
+.signOut input:focus {
+    border-bottom: 3px solid rgb(244,51,151);
+}
+
+.signIn>span>span,
+.signOut>span>span {
+    color: rgb(244,51,151);
+    text-decoration: underline;
+}
+
+.signIn button,
+.signOut button {
+    width: 100%;
+    background: rgb(244,51,151);
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    border: 1px solid rgb(244,51,151);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signIn button:hover,
+.signOut button:hover {
+    color: rgb(244,51,151);
+    background-color: transparent;
+}

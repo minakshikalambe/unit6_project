@@ -1,0 +1,76 @@
+.container_foot{
+    width:1250px;
+    /* border:1px solid red; */
+    margin: auto;
+    display: flex;
+    background-color: rgb(249,249,249);
+}
+.shop_div{
+    height:350px;
+    width:30%;
+    /* border:1px solid red; */
+}
+.heading{
+    margin-top:30px;
+    font-weight: bold;
+    font-size:23px;
+}
+.heading_1{
+    margin-top: 30px;
+    color: rgb(62, 60, 60);
+    font-size:18px;
+}
+.heading_logo{
+    /* border:1px solid red; */
+    height:100px;
+    width:100%;
+}
+.heading_logo>img{
+    width:100%;
+    height:95%;
+    margin-top:30px;
+}
+.careers{
+    width:33%;
+    /* border:1px solid red; */
+    height:350px;
+    display: flex;
+}
+.careers1{
+    width:50%;
+    height:100%;
+    /* border:1px solid red; */
+}
+.car_p1{
+    margin-top:40px;
+    font-weight: 600;
+    color:rgb(77, 75, 75);
+    font-size:18px;
+}
+.car_p2{
+    margin-top:20px;
+    font-weight: 600;
+    color:rgb(77, 75, 75);
+    font-size:18px;
+}
+.container_reach{
+    width:19%;
+    /* border:1px solid red ; */
+}
+.container_reach>img{
+    margin-top:50px;
+}
+.container_reach1{
+    width:19%;
+    /* border:1px solid red ; */
+}
+.contact{
+    margin-top:40px;
+    font-weight: bold;
+    font-size:18px;
+    color: rgb(78, 77, 77);
+}
+.contact1{
+    font-size:14px;
+    color: rgb(78, 77, 77);
+}

@@ -1,0 +1,67 @@
+.navbarContainer{
+    width:1250px;
+    margin: auto;
+    /* border:1px solid red; */
+}
+.navabar_sub1{
+    width:100%;
+    display: flex;
+    /* border:1px solid red; */
+    height:70px;
+}
+.logo{
+    width:230px;
+    height:98%;
+    /* border:1px solid red; */
+}
+.logo>img{
+    width:100%;
+    height:100%;
+}
+.input_div{
+    width: 370px;
+    /* border:1px solid red; */
+    height:98%;
+}
+.inputTag{
+    border: 1px solid rgb(133, 131, 131);
+    width:80%;
+    height:70%;
+    margin-top:10px;
+}
+.download{
+    width:380px;
+    height:98%;
+    /* border:1px solid red; */
+}
+.download>img{
+    width: 100%;
+    height: 80%;
+}
+.profile{
+    width:70px;
+    /* border:1px solid red; */
+    height:100%;
+}
+.profile>img{
+    margin-top: 15px;
+    margin-left:15px;
+    width: 60%;
+    height: 50%;
+}
+.empty{
+    width:60px;
+}
+.navbar_sub2{
+    height:50px;
+    width:100%;
+    /* border:1px solid red; */
+    display: flex;
+}
+.ethanic{
+    /* border:1px solid red; */
+    width:180px;
+}
+.ethanic_p{
+    margin-top:10px;
+}
